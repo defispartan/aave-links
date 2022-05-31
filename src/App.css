@@ -1,38 +1,108 @@
-.App {
+body {
+  background: linear-gradient(to left top, #9c559c, #6eb6c3);
+  background-attachment: fixed; /*edit*/
+}
+
+.topline {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.box {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.subheader {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.links {
+  text-align: center;
+  margin-bottom: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text {
+  display: inline-block;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+.verify {
+  cursor: pointer;
+  width: 150px;
+}
+
+.linkBox {
+  cursor: pointer;
+  width: 100px;
+  margin: 0 2px;
+}
+
+.links {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
+@keyframes spinner {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
+}
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #383636; /* Black */
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 300px;
+}
+
+.error-container {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 300px;
 }
