@@ -1,4 +1,4 @@
-![Links Logo](https://github.com/defispartan/aave-links/blob/master/public/urls.png)
+<img src="https://github.com/defispartan/aave-links/blob/master/public/urls.png" width="50" height="50">
 
 # Aave Links
  
