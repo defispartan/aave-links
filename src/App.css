@@ -6,7 +6,6 @@ body {
 .topline {
   position: absolute;
   top: 0px;
-  left: 20px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -127,7 +126,7 @@ a:active {
 }
 
 .riskBoxText {
-  font-size: 16px;
+  font-size: 15px;
   width: 100%;
 }
 
@@ -147,5 +146,8 @@ a:active {
   .links {
     flex-wrap: wrap;
     width: 95%;
+  }
+  .header {
+    padding-top: 0px;
   }
 }

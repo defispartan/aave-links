@@ -13,12 +13,12 @@ export const Home = () => {
   return (
     <div>
       <div className="topline">
-        <h2 className="subheader" style={{ color: 'white' }}>
+        <h2 className="subheader" style={{ color: 'white', paddingLeft: '20px' }}>
           Aave Links
         </h2>
         <div style={{ alignItems: 'center' }}>
           <a
-            href="https://github.com/defispartan/aave-urls"
+            href="https://github.com/defispartan/aave-links"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -29,6 +29,15 @@ export const Home = () => {
               style={{ paddingRight: '40px', marginLeft: '10px', paddingTop: '3px' }}
               alt="GitHub logo"
             />
+          </a>
+        </div>
+
+        <div className="subheader" style={{ top: '0px', right: '0px', paddingRight: '20px', position: 'absolute', display: 'flex', height: '100%', alignItems: 'center' }}>
+          <a href="https://github.com/defispartan/aave-links/blob/master/README.md" target="_blank" style={{ textDecoration: 'none', marginRight: '20px' }} rel="noreferrer">
+            ABOUT
+          </a>
+          <a href="https://github.com/defispartan/aave-links/blob/master/LICENSE.md" target="_blank" style={{ textDecoration: 'none' }} rel="noreferrer">
+            LICENSE
           </a>
         </div>
 

@@ -10,7 +10,7 @@ export const VerifyWarning = () => {
                     alt="warning"
                 />
                 <p className="riskBoxText">
-                    Always verify the addresses you are interacting with docs or the{' '} <a href="https://github.com/bgd-labs/aave-address-book" style={{ textDecoration: 'none' }}>Aave address book</a>{' '}or{' '}<a href="https://docs.aave.com/developers/deployed-contracts/deployed-contracts" style={{ textDecoration: 'none' }}>{' '}docs</a>. You can also check out this{' '}<a href="https://github.com/aave/aave-ui/blob/master/VERIFICATION.md" style={{ textDecoration: 'none' }}>guide</a>{' '}for which contracts are called by certain actions
+                    Always verify that contract addresses are correct before submitting transactions. You can find official addresses in the {' '}<a href="https://docs.aave.com/developers/deployed-contracts/deployed-contracts" style={{ textDecoration: 'none' }} target="_blank" rel="noreferrer">Aave Docs</a>{' '} or {' '}<a href="https://github.com/bgd-labs/aave-address-book" style={{ textDecoration: 'none' }} target="_blank" rel="noreferrer">address book library</a>. This{' '}<a href="https://github.com/aave/aave-ui/blob/master/VERIFICATION.md" style={{ textDecoration: 'none' }} target="_blank" rel="noreferrer">guide</a>{' '} explains the contracts called by each protocol method.
                 </p>
             </div>
         </div>
